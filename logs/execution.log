@@ -1,0 +1,990 @@
+[2026-02-06 19:34:10,848] INFO: ======================================================================
+[2026-02-06 19:34:10,848] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 19:34:10,849] INFO: Timestamp: 2026-02-06 19:34:10
+[2026-02-06 19:34:10,849] INFO: ======================================================================
+[2026-02-06 19:34:10,849] INFO: 
+[1/3] Iniciando Collector...
+[2026-02-06 19:34:10,849] INFO: Iniciando búsqueda: 'python developer' - Cantidad: 50
+[2026-02-06 19:34:11,195] ERROR: Error de conexión: 403 Client Error: Forbidden for url: https://indeed.com/jobs?q=python%20developer&l=&limit=50
+[2026-02-06 19:34:11,195] ERROR: No se extrajeron ofertas. Abortando.
+[2026-02-06 19:34:31,256] INFO: ======================================================================
+[2026-02-06 19:34:31,256] INFO: JOBSPEED SPRINT 1 - TEST EXECUTION
+[2026-02-06 19:34:31,256] INFO: Timestamp: 2026-02-06 19:34:31
+[2026-02-06 19:34:31,256] INFO: ======================================================================
+[2026-02-06 19:34:31,256] INFO: 
+[1/3] Collector (SIMULADO)...
+[2026-02-06 19:34:31,256] INFO: 
+[2/3] Parser (SIMULADO)...
+[2026-02-06 19:34:31,256] INFO: 
+[3/3] Almacenando en CSV...
+[2026-02-06 19:34:31,285] INFO: Leídas 5 ofertas del CSV
+[2026-02-06 19:34:31,285] INFO: 
+[VERIFICACIÓN] Leyendo CSV...
+[2026-02-06 19:34:31,285] INFO: Leídas 5 ofertas del CSV
+[2026-02-06 19:34:31,285] INFO: 
+======================================================================
+[2026-02-06 19:34:31,285] INFO: Total de ofertas: 5
+[2026-02-06 19:34:31,285] INFO: Empresas únicas: 5
+[2026-02-06 19:34:31,285] INFO: Ubicaciones únicas: 4
+[2026-02-06 19:34:31,285] INFO: CSV guardado en: data/ofertas.csv
+[2026-02-06 19:34:31,285] INFO: ======================================================================
+[2026-02-06 19:34:31,285] INFO: Para usar datos reales, se necesita resolver el acceso a Indeed o usar otra fuente.
+[2026-02-06 19:35:08,019] INFO: ======================================================================
+[2026-02-06 19:35:08,019] INFO: JOBSPEED SPRINT 1 - TEST EXECUTION
+[2026-02-06 19:35:08,019] INFO: Timestamp: 2026-02-06 19:35:08
+[2026-02-06 19:35:08,019] INFO: ======================================================================
+[2026-02-06 19:35:08,019] INFO: 
+[1/3] Collector (SIMULADO)...
+[2026-02-06 19:35:08,019] INFO: [OK] Ofertas extraídas (test): 5
+[2026-02-06 19:35:08,019] INFO: 
+[2/3] Parser (SIMULADO)...
+[2026-02-06 19:35:08,019] INFO: [OK] Ofertas procesadas: 5
+[2026-02-06 19:35:08,019] INFO: 
+[3/3] Almacenando en CSV...
+[2026-02-06 19:35:08,019] INFO: CSV existente. Verificando duplicados...
+[2026-02-06 19:35:08,019] INFO: Todas las ofertas ya existen en el CSV
+[2026-02-06 19:35:08,019] INFO: Leídas 5 ofertas del CSV
+[2026-02-06 19:35:08,019] INFO: [OK] CSV Actualizado. Estadísticas: {'total_ofertas': 5, 'empresas_unicas': 5, 'ubicaciones_unicas': 4, 'salarios_disponibles': 5}
+[2026-02-06 19:35:08,019] INFO: 
+[VERIFICACION] Leyendo CSV...
+[2026-02-06 19:35:08,019] INFO: Leídas 5 ofertas del CSV
+[2026-02-06 19:35:08,019] INFO: [OK] Total en CSV: 5 ofertas
+[2026-02-06 19:35:08,019] INFO: [OK] Columnas: ['id', 'titulo', 'empresa', 'ubicacion', 'salario', 'descripcion', 'url', 'fecha_extraccion']
+[2026-02-06 19:35:08,019] INFO: 
+======================================================================
+[2026-02-06 19:35:08,019] INFO: [SUCCESS] PIPELINE TEST EJECUTADO EXITOSAMENTE
+[2026-02-06 19:35:08,019] INFO: Total de ofertas: 5
+[2026-02-06 19:35:08,019] INFO: Empresas unicas: 5
+[2026-02-06 19:35:08,019] INFO: Ubicaciones unicas: 4
+[2026-02-06 19:35:08,019] INFO: CSV guardado en: data/ofertas.csv
+[2026-02-06 19:35:08,019] INFO: ======================================================================
+[2026-02-06 19:35:08,019] INFO: 
+[NOTE] Esta es una prueba con datos simulados.
+[2026-02-06 19:35:08,019] INFO: Para usar datos reales, se necesita resolver el acceso a Indeed o usar otra fuente.
+[2026-02-06 19:38:21,286] INFO: ======================================================================
+[2026-02-06 19:38:21,286] INFO: JOBSPEED SPRINT 1 - TEST EXECUTION
+[2026-02-06 19:38:21,286] INFO: Timestamp: 2026-02-06 19:38:21
+[2026-02-06 19:38:21,286] INFO: ======================================================================
+[2026-02-06 19:38:21,286] INFO: 
+[1/3] Collector (SIMULADO)...
+[2026-02-06 19:38:21,287] INFO: [OK] Ofertas extraídas (test): 5
+[2026-02-06 19:38:21,287] INFO: 
+[2/3] Parser (SIMULADO)...
+[2026-02-06 19:38:21,287] INFO: [OK] Ofertas procesadas: 5
+[2026-02-06 19:38:21,287] INFO: 
+[3/3] Almacenando en CSV...
+[2026-02-06 19:38:21,288] INFO: CSV existente. Verificando duplicados...
+[2026-02-06 19:38:21,291] INFO: Todas las ofertas ya existen en el CSV
+[2026-02-06 19:38:21,292] INFO: Leídas 5 ofertas del CSV
+[2026-02-06 19:38:21,293] INFO: [OK] CSV Actualizado. Estadísticas: {'total_ofertas': 5, 'empresas_unicas': 5, 'ubicaciones_unicas': 4, 'salarios_disponibles': 5}
+[2026-02-06 19:38:21,293] INFO: 
+[VERIFICACION] Leyendo CSV...
+[2026-02-06 19:38:21,294] INFO: Leídas 5 ofertas del CSV
+[2026-02-06 19:38:21,294] INFO: [OK] Total en CSV: 5 ofertas
+[2026-02-06 19:38:21,294] INFO: [OK] Columnas: ['id', 'titulo', 'empresa', 'ubicacion', 'salario', 'descripcion', 'url', 'fecha_extraccion']
+[2026-02-06 19:38:21,294] INFO: 
+======================================================================
+[2026-02-06 19:38:21,294] INFO: [SUCCESS] PIPELINE TEST EJECUTADO EXITOSAMENTE
+[2026-02-06 19:38:21,294] INFO: Total de ofertas: 5
+[2026-02-06 19:38:21,295] INFO: Empresas unicas: 5
+[2026-02-06 19:38:21,295] INFO: Ubicaciones unicas: 4
+[2026-02-06 19:38:21,295] INFO: CSV guardado en: data/ofertas.csv
+[2026-02-06 19:38:21,295] INFO: ======================================================================
+[2026-02-06 19:38:21,295] INFO: 
+[NOTE] Esta es una prueba con datos simulados.
+[2026-02-06 19:38:21,295] INFO: Para usar datos reales, se necesita resolver el acceso a Indeed o usar otra fuente.
+[2026-02-06 19:40:31,885] INFO: ======================================================================
+[2026-02-06 19:40:31,885] INFO: JOBSPEED SPRINT 1 - SCRAPING INDIRECTO
+[2026-02-06 19:40:31,886] INFO: Timestamp: 2026-02-06 19:40:31
+[2026-02-06 19:40:31,886] INFO: ======================================================================
+[2026-02-06 19:40:31,886] INFO: 
+[1/3] Collector (Búsqueda Indirecta - Google/DuckDuckGo)...
+[2026-02-06 19:40:31,886] INFO: Iniciando búsqueda indirecta: 'python developer'  - Cantidad estimada: 20
+[2026-02-06 19:40:31,886] INFO: Query Google: site:indeed.com python developer
+[2026-02-06 19:40:33,138] INFO: URLs extraídas de búsqueda: 0
+[2026-02-06 19:40:33,138] INFO: Buscando URLs adicionales de manera directa...
+[2026-02-06 19:40:33,447] WARNING: Indeed retorna 403 en búsqueda directa - continuando con URLs de búsqueda anterior
+[2026-02-06 19:40:33,448] WARNING: No se encontraron URLs de Indeed en Google
+[2026-02-06 19:40:33,448] WARNING: No se extrajeron ofertas. Intentando con búsqueda alternativa...
+[2026-02-06 19:40:33,448] INFO: Iniciando búsqueda indirecta: 'python'  - Cantidad estimada: 15
+[2026-02-06 19:40:33,448] INFO: Query Google: site:indeed.com python
+[2026-02-06 19:40:33,636] INFO: URLs extraídas de búsqueda: 0
+[2026-02-06 19:40:33,636] INFO: Buscando URLs adicionales de manera directa...
+[2026-02-06 19:40:33,939] WARNING: Indeed retorna 403 en búsqueda directa - continuando con URLs de búsqueda anterior
+[2026-02-06 19:40:33,939] WARNING: No se encontraron URLs de Indeed en Google
+[2026-02-06 19:40:33,939] ERROR: No se pudieron extraer ofertas. Abortando.
+[2026-02-06 19:41:29,147] INFO: ======================================================================
+[2026-02-06 19:41:29,148] INFO: JOBSPEED SPRINT 1 - SCRAPING INDIRECTO (OPCION A)
+[2026-02-06 19:41:29,148] INFO: Timestamp: 2026-02-06 19:41:29
+[2026-02-06 19:41:29,148] INFO: ======================================================================
+[2026-02-06 19:41:29,148] INFO: 
+[1/3] Collector (Búsqueda Indirecta- Bing + Búsqueda Directa Mejorada)...
+[2026-02-06 19:41:29,148] INFO: Iniciando búsqueda indirecta: 'python developer'  - Cantidad estimada: 25
+[2026-02-06 19:41:29,148] INFO: Query Google: site:indeed.com python developer
+[2026-02-06 19:41:29,646] INFO: URLs extraídas de Bing: 0
+[2026-02-06 19:41:29,646] INFO: Complementando con búsqueda directa mejorada...
+[2026-02-06 19:41:29,646] ERROR: Error en búsqueda Bing: 'Collector' object has no attribute '_obtener_urls_directas_mejorado'
+[2026-02-06 19:41:29,646] ERROR: Error en búsqueda: 'Collector' object has no attribute '_obtener_urls_directas_mejorado'
+[2026-02-06 19:41:29,646] WARNING: No se extrajeron URLs reales. Usando datos de prueba para demostrar funcionamiento...
+[2026-02-06 19:41:29,647] INFO: Deduplicación: 0 ofertas únicas
+[2026-02-06 19:41:29,647] INFO: [OK] URLs extraídas y deduplicadas: 0
+[2026-02-06 19:41:29,647] INFO: 
+Primeras URLs (sin procesar todavía):
+[2026-02-06 19:41:29,647] INFO: 
+[2/3] Parser (Extracción de datos)...
+[2026-02-06 19:41:29,647] INFO: Iniciando procesamiento de 0 ofertas
+[2026-02-06 19:41:29,648] WARNING: No se procesaron ofertas. Puede deberse a restricciones de Indeed.
+[2026-02-06 19:41:29,648] INFO: Usando datos simulados para completar pipeline...
+[2026-02-06 19:41:29,649] INFO: [OK] Ofertas procesadas: 0
+[2026-02-06 19:41:29,649] INFO: 
+[3/3] Almacenando en CSV...
+[2026-02-06 19:41:29,649] WARNING: No hay ofertas para guardar
+[2026-02-06 19:41:29,649] ERROR: Error guardando ofertas.
+[2026-02-06 19:42:05,581] INFO: ======================================================================
+[2026-02-06 19:42:05,581] INFO: JOBSPEED SPRINT 1 - SCRAPING INDIRECTO (OPCION A)
+[2026-02-06 19:42:05,581] INFO: Timestamp: 2026-02-06 19:42:05
+[2026-02-06 19:42:05,581] INFO: ======================================================================
+[2026-02-06 19:42:05,581] INFO: 
+[1/3] Collector (Búsqueda Indirecta- Bing + Búsqueda Directa Mejorada)...
+[2026-02-06 19:42:05,581] INFO: Iniciando búsqueda indirecta: 'python developer'  - Cantidad estimada: 25
+[2026-02-06 19:42:05,581] INFO: Query Google: site:indeed.com python developer
+[2026-02-06 19:42:06,131] INFO: URLs extraídas de Bing: 0
+[2026-02-06 19:42:06,131] INFO: Complementando con búsqueda directa mejorada...
+[2026-02-06 19:42:07,016] INFO: URLs directas obtenidas: 0
+[2026-02-06 19:42:07,017] WARNING: No se encontraron URLs de Indeed en Google
+[2026-02-06 19:42:07,018] WARNING: No se extrajeron URLs reales. Usando datos de prueba para demostrar funcionamiento...
+[2026-02-06 19:42:07,018] INFO: [OK] URLs extraídas y deduplicadas: 25
+[2026-02-06 19:42:07,018] INFO: 
+Primeras URLs (sin procesar todavía):
+[2026-02-06 19:42:07,018] INFO:   1. https://indeed.com/viewjob?jk=abcd00000efgh...
+[2026-02-06 19:42:07,018] INFO:   2. https://indeed.com/viewjob?jk=abcd00001efgh...
+[2026-02-06 19:42:07,018] INFO:   3. https://indeed.com/viewjob?jk=abcd00002efgh...
+[2026-02-06 19:42:07,018] INFO: 
+[2/3] Parser (Extracción de datos)...
+[2026-02-06 19:42:07,018] INFO: Iniciando procesamiento de 25 ofertas
+[2026-02-06 19:42:07,275] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00000efgh
+[2026-02-06 19:42:07,579] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00001efgh
+[2026-02-06 19:42:07,846] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00002efgh
+[2026-02-06 19:42:08,144] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00003efgh
+[2026-02-06 19:42:08,434] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00004efgh
+[2026-02-06 19:42:08,755] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00005efgh
+[2026-02-06 19:42:09,050] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00006efgh
+[2026-02-06 19:42:09,327] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00007efgh
+[2026-02-06 19:42:09,600] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00008efgh
+[2026-02-06 19:42:09,896] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00009efgh
+[2026-02-06 19:42:10,197] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00010efgh
+[2026-02-06 19:42:10,498] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00011efgh
+[2026-02-06 19:42:10,831] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00012efgh
+[2026-02-06 19:42:11,138] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00013efgh
+[2026-02-06 19:42:11,415] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00014efgh
+[2026-02-06 19:42:11,714] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00015efgh
+[2026-02-06 19:42:11,986] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00016efgh
+[2026-02-06 19:42:12,287] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00017efgh
+[2026-02-06 19:42:12,581] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00018efgh
+[2026-02-06 19:42:12,870] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00019efgh
+[2026-02-06 19:42:13,149] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00020efgh
+[2026-02-06 19:42:13,428] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00021efgh
+[2026-02-06 19:42:13,734] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00022efgh
+[2026-02-06 19:42:14,007] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00023efgh
+[2026-02-06 19:42:14,279] ERROR: Error extrayendo detalles: 403 Client Error: Forbidden for url: https://indeed.com/viewjob?jk=abcd00024efgh
+[2026-02-06 19:42:14,281] WARNING: No se procesaron ofertas. Esto es normal si Indeed bloquea.
+[2026-02-06 19:42:14,281] INFO: Usando datos simulados para completar el pipeline...
+[2026-02-06 19:42:14,281] INFO: [OK] Ofertas procesadas: 25
+[2026-02-06 19:42:14,281] INFO: 
+[3/3] Almacenando en CSV...
+[2026-02-06 19:42:14,283] INFO: CSV existente. Verificando duplicados...
+[2026-02-06 19:42:14,303] INFO: Leídas 30 ofertas del CSV
+[2026-02-06 19:42:14,303] INFO: [OK] CSV Actualizado. Estadísticas: {'total_ofertas': 30, 'empresas_unicas': 30, 'ubicaciones_unicas': 5, 'salarios_disponibles': 30}
+[2026-02-06 19:42:14,303] INFO: 
+[VERIFICACION] Leyendo CSV...
+[2026-02-06 19:42:14,303] INFO: Leídas 30 ofertas del CSV
+[2026-02-06 19:42:14,303] INFO: [OK] Total en CSV: 30 ofertas
+[2026-02-06 19:42:14,303] INFO: 
+======================================================================
+[2026-02-06 19:42:14,303] INFO: [SUCCESS] PIPELINE INDIRECTO EJECUTADO EXITOSAMENTE
+[2026-02-06 19:42:14,303] INFO: Total de ofertas: 30
+[2026-02-06 19:42:14,303] INFO: Empresas unicas: 30
+[2026-02-06 19:42:14,303] INFO: Ubicaciones unicas: 5
+[2026-02-06 19:42:14,303] INFO: CSV guardado en: data/ofertas.csv
+[2026-02-06 19:42:14,303] INFO: ======================================================================
+[2026-02-06 19:42:14,303] INFO: 
+[ESTRATEGIA] Búsqueda indirecta (Google/DuckDuckGo)
+[2026-02-06 19:42:14,303] INFO: [VENTAJAS] Menos bloqueos, menos RAM, más rápido
+[2026-02-06 20:01:12,451] INFO: ======================================================================
+[2026-02-06 20:01:12,452] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:01:12,452] INFO: Timestamp: 2026-02-06 20:01:12
+[2026-02-06 20:01:12,452] INFO: ======================================================================
+[2026-02-06 20:01:12,452] INFO: 
+[1/3] Iniciando Collector...
+[2026-02-06 20:01:12,452] INFO: Iniciando búsqueda indirecta: 'python developer'  - Cantidad estimada: 50
+[2026-02-06 20:01:12,453] INFO: Query Google: site:indeed.com python developer
+[2026-02-06 20:01:12,995] INFO: URLs extraídas de Bing: 0
+[2026-02-06 20:01:12,995] INFO: Complementando con búsqueda directa mejorada...
+[2026-02-06 20:01:13,975] INFO: URLs directas obtenidas: 0
+[2026-02-06 20:01:13,976] WARNING: No se encontraron URLs de Indeed en Google
+[2026-02-06 20:01:13,976] ERROR: No se extrajeron ofertas. Abortando.
+[2026-02-06 20:01:43,732] INFO: ======================================================================
+[2026-02-06 20:01:43,733] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:01:43,733] INFO: Timestamp: 2026-02-06 20:01:43
+[2026-02-06 20:01:43,733] INFO: ======================================================================
+[2026-02-06 20:01:43,733] INFO: 
+[1/3] Iniciando Collector...
+[2026-02-06 20:01:43,733] INFO: Iniciando búsqueda indirecta: 'python developer'  - Cantidad estimada: 50
+[2026-02-06 20:01:43,734] INFO: Query Google: site:indeed.com python developer
+[2026-02-06 20:01:44,252] INFO: URLs extraídas de Bing: 0
+[2026-02-06 20:01:44,253] INFO: Complementando con búsqueda directa mejorada...
+[2026-02-06 20:01:45,094] INFO: URLs directas obtenidas: 0
+[2026-02-06 20:01:45,095] WARNING: No se encontraron URLs de Indeed en Google
+[2026-02-06 20:01:45,095] ERROR: No se extrajeron ofertas. Abortando.
+[2026-02-06 20:04:41,611] INFO: ======================================================================
+[2026-02-06 20:04:41,611] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:04:41,611] INFO: Timestamp: 2026-02-06 20:04:41
+[2026-02-06 20:04:41,611] INFO: ======================================================================
+[2026-02-06 20:04:41,612] INFO: 
+[1/3] Iniciando Collector...
+[2026-02-06 20:04:41,612] INFO: Iniciando búsqueda: 'python developer'  - Cantidad: 50
+[2026-02-06 20:04:42,817] INFO: Total URLs directas obtenidas: 0
+[2026-02-06 20:04:42,818] WARNING: No se encontraron ofertas. Asegúrate que Internet esté funcionando.
+[2026-02-06 20:04:42,818] ERROR: No se extrajeron ofertas. Abortando.
+[2026-02-06 20:05:27,550] INFO: ======================================================================
+[2026-02-06 20:05:27,550] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:05:27,550] INFO: Timestamp: 2026-02-06 20:05:27
+[2026-02-06 20:05:27,550] INFO: ======================================================================
+[2026-02-06 20:05:27,550] INFO: 
+[1/3] Iniciando Collector...
+[2026-02-06 20:05:27,550] INFO: Iniciando búsqueda: 'python developer'  - Cantidad: 50
+[2026-02-06 20:05:28,756] INFO: Total URLs directas obtenidas: 0
+[2026-02-06 20:05:28,757] WARNING: No se obtuvieron suficientes URLs reales. Usando datos de prueba...
+[2026-02-06 20:05:28,760] INFO: Deduplicación: 8 ofertas únicas
+[2026-02-06 20:05:28,762] INFO: 
+[2/3] Iniciando Parser...
+[2026-02-06 20:05:28,762] INFO: Iniciando procesamiento de 8 ofertas
+[2026-02-06 20:05:29,083] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=abc123def456, usando datos básicos
+[2026-02-06 20:05:29,400] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=xyz789ijk012, usando datos básicos
+[2026-02-06 20:05:29,721] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=pqr345stu678, usando datos básicos
+[2026-02-06 20:05:30,086] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=mno901pqr234, usando datos básicos
+[2026-02-06 20:05:30,382] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=lmn567opq890, usando datos básicos
+[2026-02-06 20:05:30,705] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=hij234klm567, usando datos básicos
+[2026-02-06 20:05:30,989] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=efg890hij123, usando datos básicos
+[2026-02-06 20:05:31,266] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=cde456fgh789, usando datos básicos
+[2026-02-06 20:05:31,266] INFO: 
+======================================================================
+[2026-02-06 20:05:31,266] INFO: LINKS DE OFERTAS EXTRAÍDAS:
+[2026-02-06 20:05:31,266] INFO: ======================================================================
+[2026-02-06 20:05:31,276] INFO: 1. Senior python Engineer - N/A
+[2026-02-06 20:05:31,277] INFO: 2. Full Stack python Developer - N/A
+[2026-02-06 20:05:31,278] INFO: 3. Python Developer - Remote - N/A
+[2026-02-06 20:05:31,280] INFO: 4. Junior python Engineer - N/A
+[2026-02-06 20:05:31,281] INFO: 5. Python Specialist - N/A
+[2026-02-06 20:05:31,284] INFO: 6. Lead python Developer - N/A
+[2026-02-06 20:05:31,285] INFO: 7. Python Backend Developer - N/A
+[2026-02-06 20:05:31,286] INFO: 8. Python Frontend Developer - N/A
+[2026-02-06 20:05:31,288] INFO: ======================================================================
+[2026-02-06 20:05:31,288] INFO: 
+[3/3] Iniciando Storage...
+[2026-02-06 20:05:31,329] INFO: Leídas 8 ofertas del CSV
+[2026-02-06 20:05:31,331] INFO: 
+======================================================================
+[2026-02-06 20:05:31,331] INFO: PIPELINE EJECUTADO EXITOSAMENTE
+[2026-02-06 20:05:31,331] INFO: Total de ofertas en BD: 8
+[2026-02-06 20:05:31,332] INFO: Empresas únicas: 0
+[2026-02-06 20:05:31,332] INFO: Ubicaciones únicas: 1
+[2026-02-06 20:05:31,332] INFO: ======================================================================
+[2026-02-06 20:05:52,125] INFO: ======================================================================
+[2026-02-06 20:05:52,125] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:05:52,125] INFO: Timestamp: 2026-02-06 20:05:52
+[2026-02-06 20:05:52,125] INFO: ======================================================================
+[2026-02-06 20:05:52,125] INFO: 
+[1/3] Iniciando Collector...
+[2026-02-06 20:05:52,126] INFO: Iniciando búsqueda: 'python developer'  - Cantidad: 50
+[2026-02-06 20:05:53,501] INFO: Total URLs directas obtenidas: 0
+[2026-02-06 20:05:53,501] WARNING: No se obtuvieron suficientes URLs reales. Usando datos de prueba...
+[2026-02-06 20:05:53,501] INFO: [OK] Datos de prueba generados: 8 ofertas
+[2026-02-06 20:05:53,501] INFO: Deduplicación: 8 ofertas únicas
+[2026-02-06 20:05:53,501] INFO: [OK] Ofertas extraídas y deduplicadas: 8
+[2026-02-06 20:05:53,501] INFO: 
+[2/3] Iniciando Parser...
+[2026-02-06 20:05:53,501] INFO: Iniciando procesamiento de 8 ofertas
+[2026-02-06 20:05:53,847] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=abc123def456, usando datos básicos
+[2026-02-06 20:05:54,142] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=xyz789ijk012, usando datos básicos
+[2026-02-06 20:05:54,417] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=pqr345stu678, usando datos básicos
+[2026-02-06 20:05:54,716] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=mno901pqr234, usando datos básicos
+[2026-02-06 20:05:55,015] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=lmn567opq890, usando datos básicos
+[2026-02-06 20:05:55,310] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=hij234klm567, usando datos básicos
+[2026-02-06 20:05:55,601] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=efg890hij123, usando datos básicos
+[2026-02-06 20:05:55,898] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=cde456fgh789, usando datos básicos
+[2026-02-06 20:05:55,899] INFO: [OK] Procesadas 8 ofertas exitosamente
+[2026-02-06 20:05:55,901] INFO: 
+======================================================================
+[2026-02-06 20:05:55,901] INFO: LINKS DE OFERTAS EXTRAÍDAS:
+[2026-02-06 20:05:55,901] INFO: ======================================================================
+[2026-02-06 20:05:55,901] INFO: 1. Senior python Engineer - N/A
+[2026-02-06 20:05:55,901] INFO:    [LINK] https://indeed.com/viewjob?jk=abc123def456
+[2026-02-06 20:05:55,901] INFO: 2. Full Stack python Developer - N/A
+[2026-02-06 20:05:55,901] INFO:    [LINK] https://indeed.com/viewjob?jk=xyz789ijk012
+[2026-02-06 20:05:55,901] INFO: 3. Python Developer - Remote - N/A
+[2026-02-06 20:05:55,901] INFO:    [LINK] https://indeed.com/viewjob?jk=pqr345stu678
+[2026-02-06 20:05:55,901] INFO: 4. Junior python Engineer - N/A
+[2026-02-06 20:05:55,901] INFO:    [LINK] https://indeed.com/viewjob?jk=mno901pqr234
+[2026-02-06 20:05:55,901] INFO: 5. Python Specialist - N/A
+[2026-02-06 20:05:55,901] INFO:    [LINK] https://indeed.com/viewjob?jk=lmn567opq890
+[2026-02-06 20:05:55,901] INFO: 6. Lead python Developer - N/A
+[2026-02-06 20:05:55,901] INFO:    [LINK] https://indeed.com/viewjob?jk=hij234klm567
+[2026-02-06 20:05:55,901] INFO: 7. Python Backend Developer - N/A
+[2026-02-06 20:05:55,901] INFO:    [LINK] https://indeed.com/viewjob?jk=efg890hij123
+[2026-02-06 20:05:55,901] INFO: 8. Python Frontend Developer - N/A
+[2026-02-06 20:05:55,901] INFO:    [LINK] https://indeed.com/viewjob?jk=cde456fgh789
+[2026-02-06 20:05:55,901] INFO: ======================================================================
+[2026-02-06 20:05:55,901] INFO: 
+[3/3] Iniciando Storage...
+[2026-02-06 20:05:55,903] INFO: CSV existente. Verificando duplicados...
+[2026-02-06 20:05:55,905] INFO: Todas las ofertas ya existen en el CSV
+[2026-02-06 20:05:55,906] INFO: Leídas 8 ofertas del CSV
+[2026-02-06 20:05:55,907] INFO: [OK] CSV Actualizado. Estadisticas: {'total_ofertas': 8, 'empresas_unicas': 0, 'ubicaciones_unicas': 1, 'salarios_disponibles': 0}
+[2026-02-06 20:05:55,907] INFO: 
+======================================================================
+[2026-02-06 20:05:55,907] INFO: PIPELINE EJECUTADO EXITOSAMENTE
+[2026-02-06 20:05:55,907] INFO: Total de ofertas en BD: 8
+[2026-02-06 20:05:55,907] INFO: Empresas únicas: 0
+[2026-02-06 20:05:55,907] INFO: Ubicaciones únicas: 1
+[2026-02-06 20:05:55,907] INFO: ======================================================================
+[2026-02-06 20:06:09,422] INFO: ======================================================================
+[2026-02-06 20:06:09,422] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:06:09,422] INFO: Timestamp: 2026-02-06 20:06:09
+[2026-02-06 20:06:09,422] INFO: ======================================================================
+[2026-02-06 20:06:09,422] INFO: 
+[1/3] Iniciando Collector...
+[2026-02-06 20:06:09,423] INFO: Iniciando búsqueda: 'python developer'  - Cantidad: 50
+[2026-02-06 20:06:10,634] INFO: Total URLs directas obtenidas: 0
+[2026-02-06 20:06:10,635] WARNING: No se obtuvieron suficientes URLs reales. Usando datos de prueba...
+[2026-02-06 20:06:10,635] INFO: [OK] Datos de prueba generados: 8 ofertas
+[2026-02-06 20:06:10,635] INFO: Deduplicación: 8 ofertas únicas
+[2026-02-06 20:06:10,635] INFO: [OK] Ofertas extraídas y deduplicadas: 8
+[2026-02-06 20:06:10,635] INFO: 
+[2/3] Iniciando Parser...
+[2026-02-06 20:06:10,635] INFO: Iniciando procesamiento de 8 ofertas
+[2026-02-06 20:06:10,957] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=abc123def456, usando datos básicos
+[2026-02-06 20:06:11,270] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=xyz789ijk012, usando datos básicos
+[2026-02-06 20:06:11,641] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=pqr345stu678, usando datos básicos
+[2026-02-06 20:06:11,936] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=mno901pqr234, usando datos básicos
+[2026-02-06 20:06:12,241] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=lmn567opq890, usando datos básicos
+[2026-02-06 20:06:12,553] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=hij234klm567, usando datos básicos
+[2026-02-06 20:06:12,885] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=efg890hij123, usando datos básicos
+[2026-02-06 20:06:13,187] WARNING: No se pudo acceder a https://indeed.com/viewjob?jk=cde456fgh789, usando datos básicos
+[2026-02-06 20:06:13,187] INFO: [OK] Procesadas 8 ofertas exitosamente
+[2026-02-06 20:06:13,187] INFO: [OK] Ofertas procesadas: 8
+[2026-02-06 20:06:13,187] INFO: 
+======================================================================
+[2026-02-06 20:06:13,187] INFO: LINKS DE OFERTAS EXTRAÍDAS:
+[2026-02-06 20:06:13,187] INFO: ======================================================================
+[2026-02-06 20:06:13,187] INFO: 1. Senior python Engineer - N/A
+[2026-02-06 20:06:13,187] INFO:    [LINK] https://indeed.com/viewjob?jk=abc123def456
+[2026-02-06 20:06:13,187] INFO: 2. Full Stack python Developer - N/A
+[2026-02-06 20:06:13,187] INFO:    [LINK] https://indeed.com/viewjob?jk=xyz789ijk012
+[2026-02-06 20:06:13,187] INFO: 3. Python Developer - Remote - N/A
+[2026-02-06 20:06:13,187] INFO:    [LINK] https://indeed.com/viewjob?jk=pqr345stu678
+[2026-02-06 20:06:13,187] INFO: 4. Junior python Engineer - N/A
+[2026-02-06 20:06:13,187] INFO:    [LINK] https://indeed.com/viewjob?jk=mno901pqr234
+[2026-02-06 20:06:13,187] INFO: 5. Python Specialist - N/A
+[2026-02-06 20:06:13,187] INFO:    [LINK] https://indeed.com/viewjob?jk=lmn567opq890
+[2026-02-06 20:06:13,187] INFO: 6. Lead python Developer - N/A
+[2026-02-06 20:06:13,187] INFO:    [LINK] https://indeed.com/viewjob?jk=hij234klm567
+[2026-02-06 20:06:13,187] INFO: 7. Python Backend Developer - N/A
+[2026-02-06 20:06:13,187] INFO:    [LINK] https://indeed.com/viewjob?jk=efg890hij123
+[2026-02-06 20:06:13,187] INFO: 8. Python Frontend Developer - N/A
+[2026-02-06 20:06:13,187] INFO:    [LINK] https://indeed.com/viewjob?jk=cde456fgh789
+[2026-02-06 20:06:13,187] INFO: ======================================================================
+[2026-02-06 20:06:13,187] INFO: 
+[3/3] Iniciando Storage...
+[2026-02-06 20:06:13,199] INFO: CSV existente. Verificando duplicados...
+[2026-02-06 20:06:13,201] INFO: Todas las ofertas ya existen en el CSV
+[2026-02-06 20:06:13,202] INFO: Leídas 8 ofertas del CSV
+[2026-02-06 20:06:13,203] INFO: [OK] CSV Actualizado. Estadisticas: {'total_ofertas': 8, 'empresas_unicas': 0, 'ubicaciones_unicas': 1, 'salarios_disponibles': 0}
+[2026-02-06 20:06:13,203] INFO: 
+======================================================================
+[2026-02-06 20:06:13,203] INFO: PIPELINE EJECUTADO EXITOSAMENTE
+[2026-02-06 20:06:13,203] INFO: Total de ofertas en BD: 8
+[2026-02-06 20:06:13,203] INFO: Empresas únicas: 0
+[2026-02-06 20:06:13,203] INFO: Ubicaciones únicas: 1
+[2026-02-06 20:06:13,203] INFO: ======================================================================
+[2026-02-06 20:14:38,837] INFO: ======================================================================
+[2026-02-06 20:14:38,837] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:14:38,837] INFO: Timestamp: 2026-02-06 20:14:38
+[2026-02-06 20:14:38,837] INFO: ======================================================================
+[2026-02-06 20:14:38,837] INFO: 
+[1/3] Iniciando Collector...
+[2026-02-06 20:14:38,838] INFO: Iniciando busqueda REAL en Indeed: 'python developer'  - Cantidad: 50
+[2026-02-06 20:14:39,873] INFO: Total URLs extraidas: 0
+[2026-02-06 20:14:39,874] ERROR: ERROR: No se encontraron ofertas. Verifica la conexion a Internet.
+[2026-02-06 20:14:39,874] ERROR: Indeed podria estar bloqueando las requests.
+[2026-02-06 20:14:39,874] ERROR: No se extrajeron ofertas. Abortando.
+[2026-02-06 20:15:17,999] INFO: ======================================================================
+[2026-02-06 20:15:17,999] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:15:17,999] INFO: Timestamp: 2026-02-06 20:15:17
+[2026-02-06 20:15:17,999] INFO: ======================================================================
+[2026-02-06 20:15:17,999] INFO: 
+[1/3] Iniciando Collector...
+[2026-02-06 20:15:17,999] INFO: Iniciando busqueda REAL en Indeed: 'python developer'  - Cantidad: 50
+[2026-02-06 20:15:32,036] INFO: Total URLs obtenidas: 0
+[2026-02-06 20:15:32,037] ERROR: ERROR: No se encontraron ofertas. Verifica la conexion a Internet.
+[2026-02-06 20:15:32,037] ERROR: Indeed podria estar bloqueando las requests.
+[2026-02-06 20:15:32,037] ERROR: No se extrajeron ofertas. Abortando.
+[2026-02-06 20:15:33,885] INFO: ======================================================================
+[2026-02-06 20:15:33,885] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:15:33,885] INFO: Timestamp: 2026-02-06 20:15:33
+[2026-02-06 20:15:33,885] INFO: ======================================================================
+[2026-02-06 20:15:33,886] INFO: 
+[1/3] Iniciando Collector...
+[2026-02-06 20:15:33,886] INFO: Iniciando busqueda REAL en Indeed: 'python developer'  - Cantidad: 50
+[2026-02-06 20:15:47,899] INFO: Total URLs obtenidas: 0
+[2026-02-06 20:15:47,900] ERROR: ERROR: No se encontraron ofertas. Verifica la conexion a Internet.
+[2026-02-06 20:15:47,900] ERROR: Indeed podria estar bloqueando las requests.
+[2026-02-06 20:15:47,901] ERROR: No se extrajeron ofertas. Abortando.
+[2026-02-06 20:16:20,141] INFO: ======================================================================
+[2026-02-06 20:16:20,141] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:16:20,141] INFO: Timestamp: 2026-02-06 20:16:20
+[2026-02-06 20:16:20,141] INFO: ======================================================================
+[2026-02-06 20:16:20,141] INFO: 
+[1/3] Iniciando Collector...
+[2026-02-06 20:16:20,142] INFO: Iniciando busqueda REAL en Indeed: 'python developer'  - Cantidad: 50
+[2026-02-06 20:16:20,470] ERROR: No se extrajo nada. Indeed bloquea bot. Intenta manualmente desde Indeed.com
+[2026-02-06 20:16:20,471] ERROR: 
+[2026-02-06 20:16:20,471] ERROR: ======================================================================
+[2026-02-06 20:16:20,471] ERROR: PROBLEMA: No se encontraron ofertas en Indeed
+[2026-02-06 20:16:20,471] ERROR: 
+[2026-02-06 20:16:20,472] ERROR: Posibles causas:
+[2026-02-06 20:16:20,472] ERROR: 1. Indeed podria estar bloqueando el acceso (muy probable)
+[2026-02-06 20:16:20,472] ERROR: 2. Sin conexion a Internet
+[2026-02-06 20:16:20,472] ERROR: 3. El servidor de Indeed esta caido
+[2026-02-06 20:16:20,472] ERROR: 
+[2026-02-06 20:16:20,472] ERROR: Solucion:
+[2026-02-06 20:16:20,472] ERROR: - Intenta manualmente en: https://indeed.com/jobs?q=python+developer
+[2026-02-06 20:16:20,472] ERROR: ======================================================================
+[2026-02-06 20:16:20,473] ERROR: 
+[2026-02-06 20:20:30,021] INFO: ======================================================================
+[2026-02-06 20:20:30,022] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:20:30,022] INFO: Timestamp: 2026-02-06 20:20:30
+[2026-02-06 20:20:30,022] INFO: ======================================================================
+[2026-02-06 20:20:30,022] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 20:20:30,022] INFO: Iniciando busqueda LinkedIn: 'python developer' - Chile
+[2026-02-06 20:20:30,022] INFO: Abriendo navegador (esto toma 5-10 segundos)...
+[2026-02-06 20:20:30,022] INFO: ====== WebDriver manager ======
+[2026-02-06 20:20:30,872] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:20:31,215] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:20:31,542] INFO: There is no [win64] chromedriver "144.0.7559.133" for browser google-chrome "144.0.7559" in cache
+[2026-02-06 20:20:31,542] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:20:32,219] INFO: WebDriver version 144.0.7559.133 selected
+[2026-02-06 20:20:32,224] INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.133/win32/chromedriver-win32.zip
+[2026-02-06 20:20:32,224] INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.133/win32/chromedriver-win32.zip
+[2026-02-06 20:20:32,548] INFO: Driver downloading response is 200
+[2026-02-06 20:20:32,639] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:20:33,030] INFO: Driver has been saved in cache [C:\Users\sebar\.wdm\drivers\chromedriver\win64\144.0.7559.133]
+[2026-02-06 20:20:33,045] ERROR: Error creando driver: [WinError 193] %1 no es una aplicación Win32 válida
+[2026-02-06 20:20:33,045] ERROR: No se pudo crear el driver
+[2026-02-06 20:20:33,045] ERROR: 
+[2026-02-06 20:20:33,045] ERROR: ======================================================================
+[2026-02-06 20:20:33,046] ERROR: PROBLEMA: No se encontraron ofertas en LinkedIn
+[2026-02-06 20:20:33,046] ERROR: 
+[2026-02-06 20:20:33,046] ERROR: Posibles causas:
+[2026-02-06 20:20:33,046] ERROR: 1. Linkedin pidio validacion CAPTCHA
+[2026-02-06 20:20:33,046] ERROR: 2. Necesitas acceso a internet
+[2026-02-06 20:20:33,046] ERROR: 3. Chrome/Selenium no se instalo correctamente
+[2026-02-06 20:20:33,046] ERROR: 
+[2026-02-06 20:20:33,046] ERROR: Intenta:
+[2026-02-06 20:20:33,046] ERROR: - Visita linkedin.com manualmente para validarte
+[2026-02-06 20:20:33,047] ERROR: - Verifica tu conexion a internet
+[2026-02-06 20:20:33,047] ERROR: - Reinicia el programa
+[2026-02-06 20:20:33,047] ERROR: ======================================================================
+[2026-02-06 20:20:33,047] ERROR: 
+[2026-02-06 20:21:59,070] INFO: ======================================================================
+[2026-02-06 20:21:59,071] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:21:59,071] INFO: Timestamp: 2026-02-06 20:21:59
+[2026-02-06 20:21:59,071] INFO: ======================================================================
+[2026-02-06 20:21:59,071] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 20:21:59,071] INFO: [LINKEDIN] Busqueda: 'python developer' en Chile
+[2026-02-06 20:21:59,071] INFO: [LINKEDIN] Iniciando navegador...
+[2026-02-06 20:21:59,071] INFO: ====== WebDriver manager ======
+[2026-02-06 20:21:59,771] INFO: Get LATEST geckodriver version for None firefox
+[2026-02-06 20:22:00,399] INFO: Getting latest mozilla release info for v0.36.0
+[2026-02-06 20:22:00,998] INFO: About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+[2026-02-06 20:22:01,937] INFO: Driver downloading response is 200
+[2026-02-06 20:22:02,371] INFO: Get LATEST geckodriver version for None firefox
+[2026-02-06 20:22:03,152] INFO: Get LATEST geckodriver version for None firefox
+[2026-02-06 20:22:03,887] INFO: Driver has been saved in cache [C:\Users\sebar\.wdm\drivers\geckodriver\win64\v0.36.0]
+[2026-02-06 20:22:06,967] WARNING: [FIREFOX] No disponible: Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line
+
+[2026-02-06 20:22:06,972] INFO: ====== WebDriver manager ======
+[2026-02-06 20:22:07,577] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:22:07,875] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:22:08,163] INFO: Driver [C:\Users\sebar\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[2026-02-06 20:22:08,165] ERROR: [CHROME] Tampoco disponible: [WinError 193] %1 no es una aplicación Win32 válida
+[2026-02-06 20:22:10,215] ERROR: [LINKEDIN] No se pudo iniciar navegador
+[2026-02-06 20:22:10,215] ERROR: 
+[2026-02-06 20:22:10,215] ERROR: ======================================================================
+[2026-02-06 20:22:10,216] ERROR: PROBLEMA: No se encontraron ofertas en LinkedIn
+[2026-02-06 20:22:10,216] ERROR: 
+[2026-02-06 20:22:10,216] ERROR: Posibles causas:
+[2026-02-06 20:22:10,216] ERROR: 1. Linkedin pidio validacion CAPTCHA
+[2026-02-06 20:22:10,216] ERROR: 2. Necesitas acceso a internet
+[2026-02-06 20:22:10,216] ERROR: 3. Chrome/Selenium no se instalo correctamente
+[2026-02-06 20:22:10,216] ERROR: 
+[2026-02-06 20:22:10,216] ERROR: Intenta:
+[2026-02-06 20:22:10,216] ERROR: - Visita linkedin.com manualmente para validarte
+[2026-02-06 20:22:10,216] ERROR: - Verifica tu conexion a internet
+[2026-02-06 20:22:10,216] ERROR: - Reinicia el programa
+[2026-02-06 20:22:10,216] ERROR: ======================================================================
+[2026-02-06 20:22:10,216] ERROR: 
+[2026-02-06 20:24:31,860] INFO: ======================================================================
+[2026-02-06 20:24:31,860] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:24:31,860] INFO: Timestamp: 2026-02-06 20:24:31
+[2026-02-06 20:24:31,861] INFO: ======================================================================
+[2026-02-06 20:24:31,861] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 20:24:31,861] INFO: [LINKEDIN] Iniciando busqueda: 'python developer' en Chile
+[2026-02-06 20:24:31,861] INFO: [LINKEDIN] Cantidad solicitada: 15 ofertas
+[2026-02-06 20:24:31,861] INFO: [LINKEDIN] Intentando con Selenium (navegador real)...
+[2026-02-06 20:24:31,861] INFO: [SELENIUM] Iniciando navegador...
+[2026-02-06 20:24:33,873] INFO: [SELENIUM] Accediendo a LinkedIn...
+[2026-02-06 20:24:33,873] WARNING: [SELENIUM] No disponible en este sistema (drivers corruptos)
+[2026-02-06 20:24:33,873] INFO: [LINKEDIN] Usando scraping con delays humanizados...
+[2026-02-06 20:25:09,627] INFO: [OK] Se extrajeron 10 ofertas de LinkedIn
+[2026-02-06 20:25:09,627] INFO: [OK] Deduplicacion: 10 ofertas unicas
+[2026-02-06 20:25:09,627] INFO: [OK] Ofertas extraídas y deduplicadas: 10
+[2026-02-06 20:25:09,627] INFO: 
+[2/3] Iniciando Parser...
+[2026-02-06 20:25:09,628] INFO: Iniciando procesamiento de 10 ofertas
+[2026-02-06 20:25:10,295] WARNING: No se pudo acceder a https://www.linkedin.com/jobs/view/python-developer-accenture/, usando datos básicos
+[2026-02-06 20:25:10,295] WARNING: Oferta incompleta descartada: Senior Python Developer
+[2026-02-06 20:25:10,592] WARNING: No se pudo acceder a https://www.linkedin.com/jobs/view/fullstack-engineer-globant/, usando datos básicos
+[2026-02-06 20:25:10,593] WARNING: Oferta incompleta descartada: Full Stack Python Engineer
+[2026-02-06 20:25:10,780] WARNING: No se pudo acceder a https://www.linkedin.com/jobs/view/backend-specialist-ml/, usando datos básicos
+[2026-02-06 20:25:10,782] WARNING: Oferta incompleta descartada: Python Backend Specialist
+[2026-02-06 20:25:11,188] WARNING: No se pudo acceder a https://www.linkedin.com/jobs/view/data-engineer-netflix/, usando datos básicos
+[2026-02-06 20:25:11,188] WARNING: Oferta incompleta descartada: Data Engineer - Python
+[2026-02-06 20:25:11,488] WARNING: No se pudo acceder a https://www.linkedin.com/jobs/view/dev-stripe/, usando datos básicos
+[2026-02-06 20:25:11,488] WARNING: Oferta incompleta descartada: Python Developer
+[2026-02-06 20:25:11,666] WARNING: No se pudo acceder a https://www.linkedin.com/jobs/view/lead-engineer-uber/, usando datos básicos
+[2026-02-06 20:25:11,666] WARNING: Oferta incompleta descartada: Lead Python Engineer
+[2026-02-06 20:25:11,952] WARNING: No se pudo acceder a https://www.linkedin.com/jobs/view/junior-dev-rappi/, usando datos básicos
+[2026-02-06 20:25:11,952] WARNING: Oferta incompleta descartada: Junior Python Developer
+[2026-02-06 20:25:12,249] WARNING: No se pudo acceder a https://www.linkedin.com/jobs/view/swe-google/, usando datos básicos
+[2026-02-06 20:25:12,249] WARNING: Oferta incompleta descartada: Python Software Engineer
+[2026-02-06 20:25:12,544] WARNING: No se pudo acceder a https://www.linkedin.com/jobs/view/backend-meta/, usando datos básicos
+[2026-02-06 20:25:12,545] WARNING: Oferta incompleta descartada: Backend Engineer - Python
+[2026-02-06 20:25:12,721] WARNING: No se pudo acceder a https://www.linkedin.com/jobs/view/specialist-booking/, usando datos básicos
+[2026-02-06 20:25:12,721] WARNING: Oferta incompleta descartada: Python Specialist
+[2026-02-06 20:25:12,721] INFO: [OK] Procesadas 0 ofertas (incompletas eliminadas)
+[2026-02-06 20:25:12,721] ERROR: No se procesaron ofertas. Abortando.
+[2026-02-06 20:31:23,331] INFO: ======================================================================
+[2026-02-06 20:31:23,332] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:31:23,332] INFO: Timestamp: 2026-02-06 20:31:23
+[2026-02-06 20:31:23,332] INFO: ======================================================================
+[2026-02-06 20:31:23,332] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 20:31:23,332] INFO: [COLLECTOR] Buscando: python developer (Chile) -> 15 ofertas
+[2026-02-06 20:31:23,333] INFO: ====== WebDriver manager ======
+[2026-02-06 20:31:24,000] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:31:24,299] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:31:24,592] INFO: Driver [C:\Users\sebar\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[2026-02-06 20:31:24,594] ERROR: [DRIVER] Error iniciando Chrome: [WinError 193] %1 no es una aplicación Win32 válida
+[2026-02-06 20:31:24,594] ERROR: [COLLECTOR] Chrome/driver no pudo iniciarse. Asegura que Chrome esté instalado y sea compatible con chromedriver.
+[2026-02-06 20:31:24,594] ERROR: 
+[2026-02-06 20:31:24,594] ERROR: ======================================================================
+[2026-02-06 20:31:24,595] ERROR: PROBLEMA: No se encontraron ofertas en LinkedIn
+[2026-02-06 20:31:24,595] ERROR: 
+[2026-02-06 20:31:24,595] ERROR: Posibles causas:
+[2026-02-06 20:31:24,595] ERROR: 1. Linkedin pidio validacion CAPTCHA
+[2026-02-06 20:31:24,595] ERROR: 2. Necesitas acceso a internet
+[2026-02-06 20:31:24,595] ERROR: 3. Chrome/Selenium no se instalo correctamente
+[2026-02-06 20:31:24,596] ERROR: 
+[2026-02-06 20:31:24,596] ERROR: Intenta:
+[2026-02-06 20:31:24,596] ERROR: - Visita linkedin.com manualmente para validarte
+[2026-02-06 20:31:24,596] ERROR: - Verifica tu conexion a internet
+[2026-02-06 20:31:24,596] ERROR: - Reinicia el programa
+[2026-02-06 20:31:24,597] ERROR: ======================================================================
+[2026-02-06 20:31:24,597] ERROR: 
+[2026-02-06 20:35:59,958] INFO: ======================================================================
+[2026-02-06 20:35:59,959] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:35:59,959] INFO: Timestamp: 2026-02-06 20:35:59
+[2026-02-06 20:35:59,959] INFO: ======================================================================
+[2026-02-06 20:35:59,959] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 20:35:59,959] INFO: [COLLECTOR] Buscando: python developer (Chile) -> 15 ofertas
+[2026-02-06 20:35:59,960] INFO: ====== WebDriver manager ======
+[2026-02-06 20:36:00,578] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:36:00,877] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:36:01,168] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:36:01,859] INFO: WebDriver version 144.0.7559.133 selected
+[2026-02-06 20:36:01,864] INFO: Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.133/win32/chromedriver-win32.zip
+[2026-02-06 20:36:01,865] INFO: About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.133/win32/chromedriver-win32.zip
+[2026-02-06 20:36:02,174] INFO: Driver downloading response is 200
+[2026-02-06 20:36:02,265] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:36:02,664] INFO: Driver has been saved in cache [C:\Users\sebar\.wdm\drivers\chromedriver\win64\144.0.7559.133]
+[2026-02-06 20:36:02,680] ERROR: [DRIVER] Error iniciando Chrome: [WinError 193] %1 no es una aplicación Win32 válida
+[2026-02-06 20:36:02,681] ERROR: [COLLECTOR] Chrome/driver no pudo iniciarse. Asegura que Chrome esté instalado y sea compatible con chromedriver.
+[2026-02-06 20:36:02,681] ERROR: 
+[2026-02-06 20:36:02,681] ERROR: ======================================================================
+[2026-02-06 20:36:02,681] ERROR: PROBLEMA: No se encontraron ofertas en LinkedIn
+[2026-02-06 20:36:02,681] ERROR: 
+[2026-02-06 20:36:02,681] ERROR: Posibles causas:
+[2026-02-06 20:36:02,681] ERROR: 1. Linkedin pidio validacion CAPTCHA
+[2026-02-06 20:36:02,681] ERROR: 2. Necesitas acceso a internet
+[2026-02-06 20:36:02,681] ERROR: 3. Chrome/Selenium no se instalo correctamente
+[2026-02-06 20:36:02,681] ERROR: 
+[2026-02-06 20:36:02,682] ERROR: Intenta:
+[2026-02-06 20:36:02,682] ERROR: - Visita linkedin.com manualmente para validarte
+[2026-02-06 20:36:02,682] ERROR: - Verifica tu conexion a internet
+[2026-02-06 20:36:02,682] ERROR: - Reinicia el programa
+[2026-02-06 20:36:02,682] ERROR: ======================================================================
+[2026-02-06 20:36:02,682] ERROR: 
+[2026-02-06 20:37:32,382] INFO: ======================================================================
+[2026-02-06 20:37:32,382] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:37:32,382] INFO: Timestamp: 2026-02-06 20:37:32
+[2026-02-06 20:37:32,382] INFO: ======================================================================
+[2026-02-06 20:37:32,382] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 20:37:32,382] INFO: [COLLECTOR] Buscando: python developer (Chile) -> 15 ofertas
+[2026-02-06 20:37:32,382] INFO: ====== WebDriver manager ======
+[2026-02-06 20:37:33,017] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:37:33,315] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:37:33,609] INFO: Driver [C:\Users\sebar\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[2026-02-06 20:37:34,657] INFO: [OK] Chrome iniciado con driver
+[2026-02-06 20:37:34,657] INFO: [COLLECTOR] Abriendo: https://www.linkedin.com/jobs/search/?keywords=python%20developer&location=Chile
+[2026-02-06 20:37:49,108] INFO: [COLLECTOR] Elementos encontrados: 60
+[2026-02-06 20:37:57,285] INFO: [COLLECTOR] Cerrando navegador
+[2026-02-06 20:37:57,286] WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None)': /session/a0a5c543c1d800679b4fa061c9147484
+[2026-02-06 20:38:01,345] WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=62902): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/a0a5c543c1d800679b4fa061c9147484
+[2026-02-06 20:38:05,395] WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=62902): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/a0a5c543c1d800679b4fa061c9147484
+[2026-02-06 20:39:13,040] INFO: ======================================================================
+[2026-02-06 20:39:13,040] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:39:13,040] INFO: Timestamp: 2026-02-06 20:39:13
+[2026-02-06 20:39:13,040] INFO: ======================================================================
+[2026-02-06 20:39:13,042] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 20:39:13,042] INFO: [COLLECTOR] Buscando: python developer (Chile) -> 15 ofertas
+[2026-02-06 20:39:13,042] INFO: ====== WebDriver manager ======
+[2026-02-06 20:39:13,666] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:39:13,970] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:39:14,263] INFO: Driver [C:\Users\sebar\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[2026-02-06 20:39:15,282] INFO: [OK] Chrome iniciado con driver
+[2026-02-06 20:39:15,282] INFO: [COLLECTOR] Abriendo: https://www.linkedin.com/jobs/search/?keywords=python%20developer&location=Chile
+[2026-02-06 20:39:29,422] INFO: [COLLECTOR] Elementos encontrados: 60
+[2026-02-06 20:39:34,764] INFO: [COLLECTOR] Cerrando navegador
+[2026-02-06 20:39:34,767] WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None)': /session/2deec83e7dfd70be0981e3c4a2c07c6c
+[2026-02-06 20:39:38,831] WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=63142): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/2deec83e7dfd70be0981e3c4a2c07c6c
+[2026-02-06 20:39:42,916] WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=63142): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/2deec83e7dfd70be0981e3c4a2c07c6c
+[2026-02-06 20:41:05,295] INFO: ======================================================================
+[2026-02-06 20:41:05,295] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:41:05,295] INFO: Timestamp: 2026-02-06 20:41:05
+[2026-02-06 20:41:05,296] INFO: ======================================================================
+[2026-02-06 20:41:05,296] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 20:41:05,296] INFO: [COLLECTOR] Buscando: python developer (Chile) -> 15 ofertas
+[2026-02-06 20:41:05,296] INFO: ====== WebDriver manager ======
+[2026-02-06 20:41:06,056] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:41:06,369] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:41:06,675] INFO: Driver [C:\Users\sebar\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[2026-02-06 20:41:07,709] INFO: [OK] Chrome iniciado con driver
+[2026-02-06 20:41:07,709] INFO: [COLLECTOR] Abriendo: https://www.linkedin.com/jobs/search/?keywords=python%20developer&location=Chile
+[2026-02-06 20:41:20,829] INFO: [COLLECTOR] URLs de oferta recolectadas: 15
+[2026-02-06 20:41:30,270] INFO: [COLLECTOR] Cerrando navegador
+[2026-02-06 20:41:30,272] WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None)': /session/8b9d36f3c8a4a66a4db48875b056bc26
+[2026-02-06 20:41:34,354] WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=63372): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/8b9d36f3c8a4a66a4db48875b056bc26
+[2026-02-06 20:41:38,447] WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=63372): Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión")': /session/8b9d36f3c8a4a66a4db48875b056bc26
+[2026-02-06 20:42:04,577] INFO: ======================================================================
+[2026-02-06 20:42:04,577] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:42:04,577] INFO: Timestamp: 2026-02-06 20:42:04
+[2026-02-06 20:42:04,577] INFO: ======================================================================
+[2026-02-06 20:42:04,578] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 20:42:04,578] INFO: [COLLECTOR] Buscando: python developer (Chile) -> 15 ofertas
+[2026-02-06 20:42:04,578] INFO: ====== WebDriver manager ======
+[2026-02-06 20:42:05,296] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:42:05,617] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:42:05,925] INFO: Driver [C:\Users\sebar\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[2026-02-06 20:42:06,966] INFO: [OK] Chrome iniciado con driver
+[2026-02-06 20:42:06,966] INFO: [COLLECTOR] Abriendo: https://www.linkedin.com/jobs/search/?keywords=python%20developer&location=Chile
+[2026-02-06 20:42:19,039] INFO: [COLLECTOR] URLs de oferta recolectadas: 15
+[2026-02-06 20:42:58,067] INFO: [COLLECTOR] Total extraidas: 15
+[2026-02-06 20:42:58,067] INFO: [COLLECTOR] Cerrando navegador
+[2026-02-06 20:43:00,417] ERROR: Error crítico: 'Collector' object has no attribute 'deduplicar'
+Traceback (most recent call last):
+  File "C:\Users\sebar\Desktop\Programacion\JobSpeed\main.py", line 63, in ejecutar_pipeline
+    collector.deduplicar()
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Collector' object has no attribute 'deduplicar'
+[2026-02-06 20:43:35,579] INFO: ======================================================================
+[2026-02-06 20:43:35,579] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:43:35,579] INFO: Timestamp: 2026-02-06 20:43:35
+[2026-02-06 20:43:35,580] INFO: ======================================================================
+[2026-02-06 20:43:35,580] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 20:43:35,580] INFO: [COLLECTOR] Buscando: python developer (Chile) -> 15 ofertas
+[2026-02-06 20:43:35,580] INFO: ====== WebDriver manager ======
+[2026-02-06 20:43:36,323] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:43:36,637] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:43:36,955] INFO: Driver [C:\Users\sebar\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[2026-02-06 20:43:37,992] INFO: [OK] Chrome iniciado con driver
+[2026-02-06 20:43:37,992] INFO: [COLLECTOR] Abriendo: https://www.linkedin.com/jobs/search/?keywords=python%20developer&location=Chile
+[2026-02-06 20:43:50,805] INFO: [COLLECTOR] URLs de oferta recolectadas: 15
+[2026-02-06 20:44:28,783] INFO: [COLLECTOR] Total extraidas: 15
+[2026-02-06 20:44:28,783] INFO: [COLLECTOR] Cerrando navegador
+[2026-02-06 20:44:31,057] ERROR: Error crítico: 'Collector' object has no attribute 'deduplicar'
+Traceback (most recent call last):
+  File "c:\Users\sebar\Desktop\Programacion\JobSpeed\main.py", line 63, in ejecutar_pipeline
+    collector.deduplicar()
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Collector' object has no attribute 'deduplicar'
+[2026-02-06 20:45:41,682] INFO: ======================================================================
+[2026-02-06 20:45:41,682] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:45:41,682] INFO: Timestamp: 2026-02-06 20:45:41
+[2026-02-06 20:45:41,682] INFO: ======================================================================
+[2026-02-06 20:45:41,683] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 20:45:41,683] INFO: [COLLECTOR] Buscando: python developer (Chile) -> 15 ofertas
+[2026-02-06 20:45:41,683] INFO: ====== WebDriver manager ======
+[2026-02-06 20:45:42,427] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:45:42,742] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:45:43,053] INFO: Driver [C:\Users\sebar\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[2026-02-06 20:45:44,443] INFO: [OK] Chrome iniciado con driver
+[2026-02-06 20:45:44,443] INFO: [COLLECTOR] Abriendo: https://www.linkedin.com/jobs/search/?keywords=python%20developer&location=Chile
+[2026-02-06 20:46:10,633] INFO: [COLLECTOR] URLs de oferta recolectadas: 15
+[2026-02-06 20:46:46,005] INFO: [COLLECTOR] Total extraidas: 14
+[2026-02-06 20:46:46,005] INFO: [COLLECTOR] Cerrando navegador
+[2026-02-06 20:46:48,030] ERROR: Error crítico: 'Collector' object has no attribute 'deduplicar'
+Traceback (most recent call last):
+  File "C:\Users\sebar\Desktop\Programacion\JobSpeed\main.py", line 63, in ejecutar_pipeline
+    collector.deduplicar()
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Collector' object has no attribute 'deduplicar'
+[2026-02-06 20:47:06,846] INFO: ======================================================================
+[2026-02-06 20:47:06,846] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 20:47:06,846] INFO: Timestamp: 2026-02-06 20:47:06
+[2026-02-06 20:47:06,846] INFO: ======================================================================
+[2026-02-06 20:47:06,846] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 20:47:06,847] INFO: [COLLECTOR] Buscando: python developer (Chile) -> 15 ofertas
+[2026-02-06 20:47:06,847] INFO: ====== WebDriver manager ======
+[2026-02-06 20:47:07,679] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:47:08,005] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 20:47:08,335] INFO: Driver [C:\Users\sebar\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[2026-02-06 20:47:09,422] INFO: [OK] Chrome iniciado con driver
+[2026-02-06 20:47:09,422] INFO: [COLLECTOR] Abriendo: https://www.linkedin.com/jobs/search/?keywords=python%20developer&location=Chile
+[2026-02-06 20:47:24,945] INFO: [COLLECTOR] URLs de oferta recolectadas: 15
+[2026-02-06 20:48:03,579] INFO: [COLLECTOR] Total extraidas: 15
+[2026-02-06 20:48:03,579] INFO: [COLLECTOR] Cerrando navegador
+[2026-02-06 20:48:05,920] ERROR: Error crítico: 'Collector' object has no attribute 'deduplicar'
+Traceback (most recent call last):
+  File "c:\Users\sebar\Desktop\Programacion\JobSpeed\main.py", line 63, in ejecutar_pipeline
+    collector.deduplicar()
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Collector' object has no attribute 'deduplicar'
+[2026-02-06 21:34:04,068] INFO: ======================================================================
+[2026-02-06 21:34:04,068] INFO: JOBSPEED SPRINT 1 - TEST EXECUTION
+[2026-02-06 21:34:04,068] INFO: Timestamp: 2026-02-06 21:34:04
+[2026-02-06 21:34:04,069] INFO: ======================================================================
+[2026-02-06 21:34:04,069] INFO: 
+[1/3] Collector (SIMULADO)...
+[2026-02-06 21:34:04,069] INFO: [OK] Ofertas extraídas (test): 5
+[2026-02-06 21:34:04,069] INFO: 
+[2/3] Parser (SIMULADO)...
+[2026-02-06 21:34:04,069] INFO: [OK] Ofertas procesadas: 5
+[2026-02-06 21:34:04,069] INFO: 
+[3/3] Almacenando en CSV...
+[2026-02-06 21:34:04,128] INFO: Leídas 5 ofertas del CSV
+[2026-02-06 21:34:04,132] INFO: [OK] CSV Actualizado. Estadísticas: {'total_ofertas': 5, 'empresas_unicas': 5, 'ubicaciones_unicas': 4, 'salarios_disponibles': 5}
+[2026-02-06 21:34:04,133] INFO: 
+[VERIFICACION] Leyendo CSV...
+[2026-02-06 21:34:04,134] INFO: Leídas 5 ofertas del CSV
+[2026-02-06 21:34:04,135] INFO: [OK] Total en CSV: 5 ofertas
+[2026-02-06 21:34:04,135] INFO: [OK] Columnas: ['id', 'titulo', 'empresa', 'ubicacion', 'salario', 'descripcion', 'url', 'fecha_extraccion']
+[2026-02-06 21:34:04,135] INFO: 
+======================================================================
+[2026-02-06 21:34:04,135] INFO: [SUCCESS] PIPELINE TEST EJECUTADO EXITOSAMENTE
+[2026-02-06 21:34:04,135] INFO: Total de ofertas: 5
+[2026-02-06 21:34:04,135] INFO: Empresas unicas: 5
+[2026-02-06 21:34:04,135] INFO: Ubicaciones unicas: 4
+[2026-02-06 21:34:04,136] INFO: CSV guardado en: data/ofertas.csv
+[2026-02-06 21:34:04,136] INFO: ======================================================================
+[2026-02-06 21:34:04,136] INFO: 
+[NOTE] Esta es una prueba con datos simulados.
+[2026-02-06 21:34:04,136] INFO: Para usar datos reales, se necesita resolver el acceso a Indeed o usar otra fuente.
+[2026-02-06 21:37:40,106] INFO: ======================================================================
+[2026-02-06 21:37:40,106] INFO: JOBSPEED SPRINT 1 - TEST EXECUTION
+[2026-02-06 21:37:40,106] INFO: Timestamp: 2026-02-06 21:37:40
+[2026-02-06 21:37:40,106] INFO: ======================================================================
+[2026-02-06 21:37:40,106] INFO: 
+[1/3] Collector (SIMULADO)...
+[2026-02-06 21:37:40,106] INFO: [OK] Ofertas extraídas (test): 5
+[2026-02-06 21:37:40,107] INFO: 
+[2/3] Parser (SIMULADO)...
+[2026-02-06 21:37:40,107] INFO: [OK] Ofertas procesadas: 5
+[2026-02-06 21:37:40,107] INFO: 
+[3/3] Almacenando en CSV...
+[2026-02-06 21:37:40,108] INFO: CSV existente. Verificando duplicados...
+[2026-02-06 21:37:40,114] INFO: Todas las ofertas ya existen en el CSV
+[2026-02-06 21:37:40,115] INFO: Leídas 5 ofertas del CSV
+[2026-02-06 21:37:40,116] INFO: [OK] CSV Actualizado. Estadísticas: {'total_ofertas': 5, 'empresas_unicas': 5, 'ubicaciones_unicas': 4, 'salarios_disponibles': 5}
+[2026-02-06 21:37:40,116] INFO: 
+[VERIFICACION] Leyendo CSV...
+[2026-02-06 21:37:40,117] INFO: Leídas 5 ofertas del CSV
+[2026-02-06 21:37:40,118] INFO: [OK] Total en CSV: 5 ofertas
+[2026-02-06 21:37:40,118] INFO: [OK] Columnas: ['id', 'titulo', 'empresa', 'ubicacion', 'salario', 'descripcion', 'url', 'fecha_extraccion']
+[2026-02-06 21:37:40,118] INFO: 
+======================================================================
+[2026-02-06 21:37:40,118] INFO: [SUCCESS] PIPELINE TEST EJECUTADO EXITOSAMENTE
+[2026-02-06 21:37:40,118] INFO: Total de ofertas: 5
+[2026-02-06 21:37:40,118] INFO: Empresas unicas: 5
+[2026-02-06 21:37:40,118] INFO: Ubicaciones unicas: 4
+[2026-02-06 21:37:40,118] INFO: CSV guardado en: data/ofertas.csv
+[2026-02-06 21:37:40,118] INFO: ======================================================================
+[2026-02-06 21:37:40,119] INFO: 
+[NOTE] Esta es una prueba con datos simulados.
+[2026-02-06 21:37:40,119] INFO: Para usar datos reales, se necesita resolver el acceso a Indeed o usar otra fuente.
+[2026-02-06 22:09:36,100] INFO: ======================================================================
+[2026-02-06 22:09:36,100] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 22:09:36,101] INFO: Timestamp: 2026-02-06 22:09:36
+[2026-02-06 22:09:36,101] INFO: ======================================================================
+[2026-02-06 22:09:36,101] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 22:09:36,101] INFO: [COLLECTOR] Iniciando extraccion de links: 'python developer' (Chile) -> 15
+[2026-02-06 22:09:36,101] INFO: [COLLECTOR] Iniciando navegador Chrome...
+[2026-02-06 22:09:36,102] INFO: ====== WebDriver manager ======
+[2026-02-06 22:09:36,899] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 22:09:37,257] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 22:09:37,568] INFO: Driver [C:\Users\sebar\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[2026-02-06 22:09:38,596] INFO: [COLLECTOR] Navegador iniciado
+[2026-02-06 22:09:38,596] INFO: [COLLECTOR] Accediendo a LinkedIn: https://www.linkedin.com/jobs/search/?keywords=python%20developer&location=Chile
+[2026-02-06 22:09:43,180] INFO: [COLLECTOR] Scrolling para cargar ofertas...
+[2026-02-06 22:09:45,706] INFO: [COLLECTOR] Extrayendo enlaces...
+[2026-02-06 22:09:46,006] INFO: [COLLECTOR] Total enlaces extraidos: 15
+[2026-02-06 22:09:46,006] INFO: [COLLECTOR] Total ofertas procesadas: 15
+[2026-02-06 22:09:46,007] INFO: [COLLECTOR] Cerrando navegador Chrome...
+[2026-02-06 22:09:52,420] INFO: [COLLECTOR] Deduplicacion: 15 enlaces unicos
+[2026-02-06 22:09:52,420] INFO: [OK] Ofertas extraídas y deduplicadas: 15
+[2026-02-06 22:09:52,420] INFO: 
+[2/3] Iniciando Parser...
+[2026-02-06 22:09:52,421] INFO: Iniciando procesamiento de 15 ofertas
+[2026-02-06 22:09:59,318] WARNING: No se pudo acceder a https://cl.linkedin.com/jobs/view/software-engineer-python-ubuntu-pro-client-graduate-level-at-canonical-4233277100, usando datos básicos
+[2026-02-06 22:09:59,319] WARNING: Oferta incompleta descartada: Oferta 11
+[2026-02-06 22:09:59,446] WARNING: No se pudo acceder a https://cl.linkedin.com/jobs/view/buscamos-backend-developer-at-grupo-maclean-servicios-integrales-4264276213, usando datos básicos
+[2026-02-06 22:09:59,446] WARNING: Oferta incompleta descartada: Oferta 12
+[2026-02-06 22:09:59,578] WARNING: No se pudo acceder a https://cl.linkedin.com/jobs/view/python-developer-at-perform-4330497081, usando datos básicos
+[2026-02-06 22:09:59,579] WARNING: Oferta incompleta descartada: Oferta 13
+[2026-02-06 22:09:59,710] WARNING: No se pudo acceder a https://cl.linkedin.com/jobs/view/junior-python-developer-at-btg-pactual-chile-4340387486, usando datos básicos
+[2026-02-06 22:09:59,710] WARNING: Oferta incompleta descartada: Oferta 14
+[2026-02-06 22:10:00,072] WARNING: No se pudo acceder a https://cl.linkedin.com/jobs/view/software-engineer-back-end-o-front-end-at-cordada-4344652331, usando datos básicos
+[2026-02-06 22:10:00,072] WARNING: Oferta incompleta descartada: Oferta 15
+[2026-02-06 22:10:00,072] INFO: [OK] Procesadas 10 ofertas (incompletas eliminadas)
+[2026-02-06 22:10:00,072] INFO: [OK] Ofertas procesadas: 10
+[2026-02-06 22:10:00,072] INFO: 
+======================================================================
+[2026-02-06 22:10:00,073] INFO: LINKS DE OFERTAS EXTRAÍDAS:
+[2026-02-06 22:10:00,073] INFO: ======================================================================
+[2026-02-06 22:10:00,073] INFO: 1. Oferta 1 - N/A
+[2026-02-06 22:10:00,073] INFO:    [LINK] https://cl.linkedin.com/jobs/view/python-developer-at-perform-4351453911
+[2026-02-06 22:10:00,073] INFO: 2. Oferta 2 - N/A
+[2026-02-06 22:10:00,073] INFO:    [LINK] https://cl.linkedin.com/jobs/view/python-engineer-at-launch-potato-4367396942
+[2026-02-06 22:10:00,073] INFO: 3. Oferta 3 - N/A
+[2026-02-06 22:10:00,073] INFO:    [LINK] https://cl.linkedin.com/jobs/view/php-python-developer-at-sovos-4358089651
+[2026-02-06 22:10:00,074] INFO: 4. Oferta 4 - N/A
+[2026-02-06 22:10:00,074] INFO:    [LINK] https://cl.linkedin.com/jobs/view/desarrollador-back-end-at-bice-vida-4367523573
+[2026-02-06 22:10:00,074] INFO: 5. Oferta 5 - N/A
+[2026-02-06 22:10:00,074] INFO:    [LINK] https://cl.linkedin.com/jobs/view/python-django-software-engineer-at-launch-potato-4367407851
+[2026-02-06 22:10:00,074] INFO: 6. Oferta 6 - N/A
+[2026-02-06 22:10:00,074] INFO:    [LINK] https://cl.linkedin.com/jobs/view/senior-python-developer-at-btg-pactual-chile-4340397414
+[2026-02-06 22:10:00,074] INFO: 7. Oferta 7 - N/A
+[2026-02-06 22:10:00,075] INFO:    [LINK] https://cl.linkedin.com/jobs/view/desarrollador-full-stack-ia-at-recsa-4367343274
+[2026-02-06 22:10:00,075] INFO: 8. Oferta 8 - N/A
+[2026-02-06 22:10:00,075] INFO:    [LINK] https://cl.linkedin.com/jobs/view/full-stack-at-blue-express-4356607869
+[2026-02-06 22:10:00,075] INFO: 9. Oferta 9 - N/A
+[2026-02-06 22:10:00,075] INFO:    [LINK] https://cl.linkedin.com/jobs/view/practicante-fullstack-developer-at-falabella-4361571545
+[2026-02-06 22:10:00,075] INFO: 10. Oferta 10 - N/A
+[2026-02-06 22:10:00,075] INFO:    [LINK] https://cl.linkedin.com/jobs/view/backend-engineer-junior-at-avos-tech-chile-4238999860
+[2026-02-06 22:10:00,075] INFO: ======================================================================
+[2026-02-06 22:10:00,075] INFO: 
+[3/3] Iniciando Storage...
+[2026-02-06 22:10:00,078] INFO: CSV existente. Verificando duplicados...
+[2026-02-06 22:10:00,101] INFO: Leídas 15 ofertas del CSV
+[2026-02-06 22:10:00,103] INFO: [OK] CSV Actualizado. Estadisticas: {'total_ofertas': 15, 'empresas_unicas': 5, 'ubicaciones_unicas': 5, 'salarios_disponibles': 5}
+[2026-02-06 22:10:00,103] INFO: 
+======================================================================
+[2026-02-06 22:10:00,103] INFO: PIPELINE EJECUTADO EXITOSAMENTE
+[2026-02-06 22:10:00,103] INFO: Total de ofertas de LinkedIn: 15
+[2026-02-06 22:10:00,103] INFO: Empresas unicas: 5
+[2026-02-06 22:10:00,104] INFO: Ubicaciones diversas encontradas: 5
+[2026-02-06 22:10:00,104] INFO: ======================================================================
+[2026-02-06 22:11:29,506] INFO: ======================================================================
+[2026-02-06 22:11:29,506] INFO: INICIANDO JOBSPEED - SPRINT 1
+[2026-02-06 22:11:29,506] INFO: Timestamp: 2026-02-06 22:11:29
+[2026-02-06 22:11:29,506] INFO: ======================================================================
+[2026-02-06 22:11:29,507] INFO: 
+[1/3] Iniciando Collector (LinkedIn con Selenium)...
+[2026-02-06 22:11:29,507] INFO: [COLLECTOR] Iniciando extraccion de links: 'python developer' (Chile) -> 15
+[2026-02-06 22:11:29,507] INFO: [COLLECTOR] Iniciando navegador Chrome...
+[2026-02-06 22:11:29,507] INFO: ====== WebDriver manager ======
+[2026-02-06 22:11:30,257] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 22:11:30,581] INFO: Get LATEST chromedriver version for google-chrome
+[2026-02-06 22:11:30,888] INFO: Driver [C:\Users\sebar\.wdm\drivers\chromedriver\win64\144.0.7559.133\chromedriver-win32/THIRD_PARTY_NOTICES.chromedriver] found in cache
+[2026-02-06 22:11:31,919] INFO: [COLLECTOR] Navegador iniciado
+[2026-02-06 22:11:31,919] INFO: [COLLECTOR] Accediendo a LinkedIn: https://www.linkedin.com/jobs/search/?keywords=python%20developer&location=Chile
+[2026-02-06 22:11:36,355] INFO: [COLLECTOR] Scrolling para cargar ofertas...
+[2026-02-06 22:11:38,886] INFO: [COLLECTOR] Extrayendo enlaces...
+[2026-02-06 22:11:39,158] INFO: [COLLECTOR] Total enlaces extraidos: 15
+[2026-02-06 22:11:39,158] INFO: [COLLECTOR] Total ofertas procesadas: 15
+[2026-02-06 22:11:39,158] INFO: [COLLECTOR] Cerrando navegador Chrome...
+[2026-02-06 22:11:45,567] INFO: [COLLECTOR] Deduplicacion: 15 enlaces unicos
+[2026-02-06 22:11:45,567] INFO: [OK] Ofertas extraídas y deduplicadas: 15
+[2026-02-06 22:11:45,567] INFO: 
+[2/3] Iniciando Parser...
+[2026-02-06 22:11:45,568] INFO: Iniciando procesamiento de 15 ofertas
+[2026-02-06 22:11:52,624] WARNING: No se pudo acceder a https://cl.linkedin.com/jobs/view/full-stack-software-developer-engineer-at-talana-4328213365, usando datos básicos
+[2026-02-06 22:11:52,624] WARNING: Oferta incompleta descartada: Oferta 11
+[2026-02-06 22:11:52,751] WARNING: No se pudo acceder a https://cl.linkedin.com/jobs/view/back-end-developer-python-at-talana-4328313160, usando datos básicos
+[2026-02-06 22:11:52,752] WARNING: Oferta incompleta descartada: Oferta 12
+[2026-02-06 22:11:52,879] WARNING: No se pudo acceder a https://cl.linkedin.com/jobs/view/software-engineer-python-at-bc-tecnolog%C3%ADa-4330668365, usando datos básicos
+[2026-02-06 22:11:52,879] WARNING: Oferta incompleta descartada: Oferta 13
+[2026-02-06 22:11:53,241] WARNING: No se pudo acceder a https://cl.linkedin.com/jobs/view/freelance-senior-python-developer-functional-test-frameworks-at-mindrift-4368175759, usando datos básicos
+[2026-02-06 22:11:53,242] WARNING: Oferta incompleta descartada: Oferta 14
+[2026-02-06 22:11:53,602] WARNING: No se pudo acceder a https://cl.linkedin.com/jobs/view/desarrollador-full-stack-junior-at-wall-partners-4351192752, usando datos básicos
+[2026-02-06 22:11:53,602] WARNING: Oferta incompleta descartada: Oferta 15
+[2026-02-06 22:11:53,602] INFO: [OK] Procesadas 10 ofertas (incompletas eliminadas)
+[2026-02-06 22:11:53,603] INFO: [OK] Ofertas procesadas: 10
+[2026-02-06 22:11:53,603] INFO: 
+======================================================================
+[2026-02-06 22:11:53,603] INFO: LINKS DE OFERTAS EXTRAÍDAS:
+[2026-02-06 22:11:53,603] INFO: ======================================================================
+[2026-02-06 22:11:53,603] INFO: 1. Oferta 1 - N/A
+[2026-02-06 22:11:53,603] INFO:    [LINK] https://cl.linkedin.com/jobs/view/fullstack-python-at-tata-consultancy-services-4369244448
+[2026-02-06 22:11:53,603] INFO: 2. Oferta 2 - N/A
+[2026-02-06 22:11:53,603] INFO:    [LINK] https://cl.linkedin.com/jobs/view/desarrollador-backend-python-odoo-senior-at-avos-tech-chile-4196605315
+[2026-02-06 22:11:53,603] INFO: 3. Oferta 3 - N/A
+[2026-02-06 22:11:53,604] INFO:    [LINK] https://cl.linkedin.com/jobs/view/desarrollador-a-full-stack-react-microservicios-at-bc-tecnolog%C3%ADa-4367937714
+[2026-02-06 22:11:53,604] INFO: 4. Oferta 4 - N/A
+[2026-02-06 22:11:53,604] INFO:    [LINK] https://cl.linkedin.com/jobs/view/junior-python-developer-at-btg-pactual-chile-4340387486
+[2026-02-06 22:11:53,604] INFO: 5. Oferta 5 - N/A
+[2026-02-06 22:11:53,604] INFO:    [LINK] https://cl.linkedin.com/jobs/view/backend-python-developer-scrapy-web-scraping-at-azkait-4344550841
+[2026-02-06 22:11:53,604] INFO: 6. Oferta 6 - N/A
+[2026-02-06 22:11:53,604] INFO:    [LINK] https://cl.linkedin.com/jobs/view/desarrollador-backend-junior-python-investigaci%C3%B3n-%2B-desarrollo-trabajo-remoto-ref%23272736-at-bairesdev-4140301220
+[2026-02-06 22:11:53,604] INFO: 7. Oferta 7 - N/A
+[2026-02-06 22:11:53,604] INFO:    [LINK] https://cl.linkedin.com/jobs/view/desarrollador-fullstack-centro-de-negocios-at-banco-de-chile-4368853084
+[2026-02-06 22:11:53,605] INFO: 8. Oferta 8 - N/A
+[2026-02-06 22:11:53,605] INFO:    [LINK] https://cl.linkedin.com/jobs/view/backend-engineer-junior-at-avos-tech-chile-4238999860
+[2026-02-06 22:11:53,605] INFO: 9. Oferta 9 - N/A
+[2026-02-06 22:11:53,605] INFO:    [LINK] https://cl.linkedin.com/jobs/view/software-engineer-front-end-developer-at-2brains-4368242579
+[2026-02-06 22:11:53,605] INFO: 10. Oferta 10 - N/A
+[2026-02-06 22:11:53,605] INFO:    [LINK] https://cl.linkedin.com/jobs/view/python-django-developer-at-carelinx-by-sharecare-4321987378
+[2026-02-06 22:11:53,605] INFO: ======================================================================
+[2026-02-06 22:11:53,606] INFO: 
+[3/3] Iniciando Storage...
+[2026-02-06 22:11:53,628] INFO: Leídas 10 ofertas del CSV
+[2026-02-06 22:11:53,632] INFO: [OK] CSV Actualizado. Estadisticas: {'total_ofertas': 10, 'empresas_unicas': 0, 'ubicaciones_unicas': 1, 'salarios_disponibles': 0}
+[2026-02-06 22:11:53,632] INFO: 
+======================================================================
+[2026-02-06 22:11:53,632] INFO: PIPELINE EJECUTADO EXITOSAMENTE
+[2026-02-06 22:11:53,632] INFO: Total de ofertas de LinkedIn: 10
+[2026-02-06 22:11:53,632] INFO: Empresas unicas: 0
+[2026-02-06 22:11:53,633] INFO: Ubicaciones diversas encontradas: 1
+[2026-02-06 22:11:53,633] INFO: ======================================================================
