@@ -71,10 +71,7 @@ class Parser:
             if campo not in oferta or oferta[campo] in ["N/A", "No disponible", "", None]:
                 return False
         
-        # Al menos debe tener mas de N/A
-        if oferta.get('empresa') == 'N/A' and oferta.get('descripcion') == 'No disponible':
-            return False
-        
+        # Aceptar si tiene al menos título y URL, aunque otros campos sean N/A
         return True
     
     def _extraer_detalles(self, oferta: Dict) -> Dict:
@@ -127,15 +124,31 @@ class Parser:
             if contenido_extraido:
                 salario = self._extraer_salario(soup, descripcion)
             
+            # Extraer país y ciudad desde ubicación
+            pais = "N/A"
+            ciudad = "N/A"
+            if ubicacion and ubicacion != "No especificada":
+                # Si location es "Ciudad, País" o solo "País"
+                partes = [p.strip() for p in ubicacion.split(",")]
+                if len(partes) == 2:
+                    ciudad = partes[0]
+                    pais = partes[1]
+                elif len(partes) == 1:
+                    # Asumir que es país o ciudad
+                    pais = partes[0]
+            
             # Normalizar
             return {
                 "id": oferta.get("id"),
                 "titulo": self._normalizar_texto(titulo),
                 "empresa": self._normalizar_texto(empresa),
-                "ubicacion": self._normalizar_texto(ubicacion),
+                "pais": self._normalizar_texto(pais),
+                "ciudad": self._normalizar_texto(ciudad),
+                "ubicacion": self._normalizar_texto(ubicacion),  # Mantener para compatibilidad
                 "salario": salario,
                 "descripcion": self._normalizar_texto(descripcion),
                 "url": url,
+                "source": oferta.get("source", "N/A"),  # IMPORTANTE: Preservar source
                 "fecha_extraccion": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             }
             
@@ -146,10 +159,13 @@ class Parser:
                 "id": oferta.get("id"),
                 "titulo": oferta.get("titulo", "N/A"),
                 "empresa": "N/A",
+                "pais": "N/A",
+                "ciudad": "N/A",
                 "ubicacion": "N/A",
                 "salario": "N/A",
                 "descripcion": "N/A",
                 "url": oferta.get("url", ""),
+                "source": oferta.get("source", "N/A"),  # IMPORTANTE: Preservar source
                 "fecha_extraccion": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             }
     

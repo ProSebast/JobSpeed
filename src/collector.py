@@ -135,7 +135,7 @@ class Collector:
                     'id': idx,
                     'titulo': f'Oferta {idx}',  # Titulo minimo
                     'url': link_url,
-                    'fuente': 'linkedin'
+                    'source': 'LinkedIn'  # IMPORTANTE: Agregar source
                 }
                 ofertas.append(oferta)
                 logger.debug(f'[COLLECTOR] Link {idx}: {link_url}')

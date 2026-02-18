@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# Validar URLs
+import sys
+import logging
+from pathlib import Path
+from datetime import datetime
+
+sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 """
 Valida URLs en data/ofertas.csv.
 - Comprueba status HTTP de cada URL.

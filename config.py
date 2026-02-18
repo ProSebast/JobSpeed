@@ -41,11 +41,17 @@ CSV_COLUMNS = [
     "id",
     "titulo",
     "empresa",
-    "ubicacion",
+    "pais",
+    "ciudad",
     "salario",
     "descripcion",
     "url",
-    "fecha_extraccion"
+    "source",  # Nueva columna para rastrear origen de la oferta
+    "fecha_extraccion",
+    "match_score",
+    "proximidad_score",
+    "score_final",
+    "categoria_recomendacion"
 ]
 
 # Configuración de logging

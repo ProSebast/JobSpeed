@@ -11,27 +11,32 @@ JobSpeed automatiza la búsqueda de ofertas laborales, extrae datos relevantes y
 ### Lenguaje Principal
 - **Python** - Procesamiento de datos, scraping, análisis de texto y automatización
 
-### Módulo Collector (Búsqueda)
+### Módulo Collector (Búsqueda) - Sprint 1 ✅
 - **Requests** - Obtención de páginas web
 - **BeautifulSoup** - Extracción de HTML
-- **Playwright** - Páginas dinámicas (futuro)
+- **Selenium** - Páginas dinámicas (LinkedIn)
 
-### Módulo Parser (Extracción)
+### Módulo Parser (Extracción) - Sprint 1 ✅
 - **BeautifulSoup** - Análisis HTML
 - **Regex** - Extracción de patrones
 - **Python** - Normalización de datos
 
-### Módulo Matcher (Compatibilidad)
-- **Python** - Lógica de comparación
-- **JSON** - Almacenamiento de skills
+### Módulo Database (Persistencia) - Sprint 2 ✅
+- **SQLite** - Base de datos relacional
+- 6 tablas normalizadas (Usuario, Skills, Certificados, etc)
+
+### Módulo Matcher (Compatibilidad) - Sprint 2 ✅
+- **Python** - Matching inteligente de skills
+- **Difflib** - Búsqueda difusa similar
+- Análisis automático de compatibilidad
 
 ### Almacenamiento
-- **CSV** - Base de datos inicial
-- **SQLite/PostgreSQL** - Almacenamiento persistente (futuro)
+- **CSV** - Base de datos inicial (Sprint 1)
+- **SQLite** - Almacenamiento persistente (Sprint 2) ✅
 
 ### Futuro
-- **FastAPI** - Backend REST API
-- **React** - Frontend web
+- **FastAPI** - Backend REST API (Sprint 3)
+- **React** - Frontend web (Sprint 3)
 - **SMTP/Gmail API** - Envío automático de postulaciones
 
 ## ⚙️ Ejecución
@@ -40,5 +45,5 @@ El sistema se ejecuta mediante tareas programadas (cron jobs) para actualizació
 
 ---
 
-**Versión:** 1.0 (Sprint Inicial)  
-**Estado:** En desarrollo
+**Versión:** 2.0 (Sprint 2)  
+**Estado:** En desarrollo (Database & Matcher completado ✅)

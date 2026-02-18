@@ -67,7 +67,7 @@ class Storage:
             
             # Guardar
             df_final.to_csv(self.csv_path, index=False)
-            logger.info(f"✓ Guardadas {len(df)} nuevas ofertas en {self.csv_path}")
+            logger.info(f"[OK] Guardadas {len(df)} nuevas ofertas en {self.csv_path}")
             
             return True
             
@@ -122,14 +122,15 @@ class Storage:
                 return {
                     "total_ofertas": 0,
                     "empresas_unicas": 0,
-                    "ubicaciones_unicas": 0
+                    "ciudades_unicas": 0
                 }
             
             return {
                 "total_ofertas": len(df),
                 "empresas_unicas": df["empresa"].nunique(),
-                "ubicaciones_unicas": df["ubicacion"].nunique(),
-                "salarios_disponibles": (df["salario"] != "No especificado").sum()
+                "ciudades_unicas": df["ciudad"].nunique() if "ciudad" in df.columns else 0,
+                "paises_unicos": df["pais"].nunique() if "pais" in df.columns else 0,
+                "salarios_disponibles": (df["salario"] != "No especificado").sum() if "salario" in df.columns else 0
             }
         except Exception as e:
             logger.error(f"Error calculando estadísticas: {str(e)}")
